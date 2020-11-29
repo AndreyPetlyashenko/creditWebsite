@@ -1,0 +1,78 @@
+h1 {
+  text-align: center;
+  font-weight: 600;
+}
+.featureContainer * {
+  padding: 0;
+  margin: 0;
+}
+.featureContainer {
+  margin: 40px 0;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16), 0 3px 6px 0 rgba(0, 0, 0, 0.23);
+  .imgContainer {
+    margin: 10px;
+  }
+  //   border: 1px solid black;
+  .dataContainer {
+    padding: 0 15px;
+    a {
+      color: blue;
+      font-weight: 600;
+      padding-top: 10px;
+      display: block;
+      width: 100px;
+      height: 30px;
+    }
+  }
+  .evaluationContainer {
+    display: flex;
+    p {
+      padding: 20px 0;
+    }
+  }
+  .buttonContainer {
+    a {
+      display: block;
+      background-color: blue;
+      width: 195px;
+      height: 40px;
+      color: white;
+      font-weight: 600;
+      font-size: 20px;
+      border-radius: 5px;
+      margin: 10px 0;
+      margin-right: 10px;
+      padding-top: 12px;
+      text-align: center;
+      border: 1px solid transparent;
+    }
+    .detailsButton {
+      color: blue;
+      background-color: white;
+    }
+    a:hover {
+      border: 1px solid blue;
+    }
+  }
+}
+@media (max-width: 1025px) {
+  .features {
+    padding: 10px;
+  }
+  .featureContainer {
+    flex-direction: column;
+    margin-top: 30px;
+    .buttonContainer {
+      a {
+        margin: 10px auto;
+      }
+    }
+    .dataContainer {
+      a {
+        float: right;
+      }
+    }
+  }
+}
