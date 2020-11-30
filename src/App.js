@@ -19,11 +19,11 @@ import IsMobileContext from "./contexts/isMobileContext";
 import SubContainer from "./components/SubContainer";
 import Logo from "./components/Logo";
 
-const angle = <FontAwesomeIcon icon={faAngleDown} className="cards" />;
-const cards = <FontAwesomeIcon icon={faCreditCard} className="cards" />;
-const bussines = <FontAwesomeIcon icon={faBusinessTime} className="bussines" />;
-const shoping = <FontAwesomeIcon icon={faShoppingCart} className="bussines" />;
-const money = <FontAwesomeIcon icon={faMoneyBillWave} className="bussines" />;
+const angle = <FontAwesomeIcon icon={faAngleDown} />;
+const cards = <FontAwesomeIcon icon={faCreditCard} />;
+const bussines = <FontAwesomeIcon icon={faBusinessTime} />;
+const shoping = <FontAwesomeIcon icon={faShoppingCart} />;
+const money = <FontAwesomeIcon icon={faMoneyBillWave} />;
 
 export default class App extends React.Component {
   constructor(props) {
@@ -83,49 +83,83 @@ export default class App extends React.Component {
                   <div className="subListContainer">
                     <ul className="subList">
                       <li className="subitem">
-                        <a href="#"> {cards} Best Credit Cards</a>
+                        <a href="#">
+                          {" "}
+                          <span>
+                            <span>{cards}</span>
+                          </span>{" "}
+                          Best Credit Cards
+                        </a>
                         <i class="fab fa-cc-stripe"></i>
                       </li>
                       <li className="subitem">
-                        <a href="#">{bussines} Rewards</a>
+                        <a href="#">
+                          <span>
+                            <span>{bussines}</span>
+                          </span>{" "}
+                          Rewards
+                        </a>
                       </li>
                       <li className="subitem">
-                        <a href="#">{shoping} Sign-up Bonuses</a>
+                        <a href="#">
+                          <span>{shoping}</span> Sign-up Bonuses
+                        </a>
                       </li>
                       <li className="subitem">
-                        <a href="#">{money} Cash Back</a>
-                      </li>
-                    </ul>
-                  </div>
-                  <div className="subListContainer">
-                    <ul className="subList">
-                      <li className="subitem">
-                        <a href="#">{cards} Balance Transfer</a>
-                      </li>
-                      <li className="subitem">
-                        <a href="#">{bussines} 0% APR</a>
-                      </li>
-                      <li className="subitem">
-                        <a href="#">{shoping} No Annual Fee</a>
-                      </li>
-                      <li className="subitem">
-                        <a href="#">{money} Low Interest</a>
+                        <a href="#">
+                          <span>{money}</span> Cash Back
+                        </a>
                       </li>
                     </ul>
                   </div>
                   <div className="subListContainer">
                     <ul className="subList">
                       <li className="subitem">
-                        <a href="#">{cards} Balance Transfer</a>
+                        <a href="#">
+                          <span>
+                            <span>{cards}</span>
+                          </span>{" "}
+                          Balance Transfer
+                        </a>
                       </li>
                       <li className="subitem">
-                        <a href="#">{bussines} 0% APR</a>
+                        <a href="#">
+                          <span>{bussines}</span> 0% APR
+                        </a>
                       </li>
                       <li className="subitem">
-                        <a href="#">{shoping} No Annual Fee</a>
+                        <a href="#">
+                          <span>{shoping}</span> No Annual Fee
+                        </a>
                       </li>
                       <li className="subitem">
-                        <a href="#">{money} Low Interest</a>
+                        <a href="#">
+                          <span>{money}</span> Low Interest
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div className="subListContainer">
+                    <ul className="subList">
+                      <li className="subitem">
+                        <a href="#">
+                          <span>{cards}</span> Balance Transfer
+                        </a>
+                      </li>
+                      <li className="subitem">
+                        <a href="#">
+                          <span>{bussines}</span> 0% APR
+                        </a>
+                      </li>
+                      <li className="subitem">
+                        <a href="#">
+                          <span>{shoping}</span> No Annual Fee
+                        </a>
+                      </li>
+                      <li className="subitem">
+                        <a href="#">
+                          <span>{money}</span> Low Interest
+                        </a>
                       </li>
                     </ul>
                   </div>
@@ -133,29 +167,43 @@ export default class App extends React.Component {
                   <div className="subListContainer">
                     <ul className="subList">
                       <li className="subitem">
-                        <a href="#">{cards} Travel</a>
+                        <a href="#">
+                          <span>{cards}</span> Travel
+                        </a>
                       </li>
                       <li className="subitem">
-                        <a href="#">{bussines} Airline</a>
+                        <a href="#">
+                          <span>{bussines}</span> Airline
+                        </a>
                       </li>
                       <li className="subitem">
-                        <a href="#">{shoping} Hotel</a>
+                        <a href="#">
+                          <span>{shoping}</span> Hotel
+                        </a>
                       </li>
                       <li className="subitem">
-                        <a href="#">{money} No Foreign Transaction Fee</a>
+                        <a href="#">
+                          <span>{money}</span> No Foreign Transaction Fee
+                        </a>
                       </li>
                     </ul>
                   </div>
                   <div className="subListContainer">
                     <ul className="subList">
                       <li className="subitem">
-                        <a href="#">{cards} Bussiness</a>
+                        <a href="#">
+                          <span>{cards}</span> Bussiness
+                        </a>
                       </li>
                       <li className="subitem">
-                        <a href="#">{bussines} Student</a>
+                        <a href="#">
+                          <span>{bussines}</span> Student
+                        </a>
                       </li>
                       <li className="subitem">
-                        <a href="#">{shoping} Gas</a>
+                        <a href="#">
+                          <span>{shoping}</span> Gas
+                        </a>
                       </li>
                       <li className="subitem">
                         <a href="#"></a>
@@ -175,33 +223,50 @@ export default class App extends React.Component {
                     <div class="subListContainer">
                       <ul className="subList">
                         <li className="subitem">
-                          <a href="#"> {cards} Best Credit Cards</a>
+                          <a href="#">
+                            {" "}
+                            <span>{cards}</span> Best Credit Cards
+                          </a>
                           <i class="fab fa-cc-stripe"></i>
                         </li>
                         <li className="subitem">
-                          <a href="#">{bussines} Rewards</a>
+                          <a href="#">
+                            <span>{bussines}</span> Rewards
+                          </a>
                         </li>
                         <li className="subitem">
-                          <a href="#">{shoping} Sign-up Bonuses</a>
+                          <a href="#">
+                            <span>{shoping}</span> Sign-up Bonuses
+                          </a>
                         </li>
                         <li className="subitem">
-                          <a href="#">{money} Cash Back</a>
+                          <a href="#">
+                            <span>{money}</span> Cash Back
+                          </a>
                         </li>
                       </ul>
                     </div>
                     <div class="subListContainer">
                       <ul className="subList">
                         <li className="subitem">
-                          <a href="#">{cards} Balance Transfer</a>
+                          <a href="#">
+                            <span>{cards}</span> Balance Transfer
+                          </a>
                         </li>
                         <li className="subitem">
-                          <a href="#">{bussines} 0% APR</a>
+                          <a href="#">
+                            <span>{bussines}</span> 0% APR
+                          </a>
                         </li>
                         <li className="subitem">
-                          <a href="#">{shoping} No Annual Fee</a>
+                          <a href="#">
+                            <span>{shoping}</span> No Annual Fee
+                          </a>
                         </li>
                         <li className="subitem">
-                          <a href="#">{money} Low Interest</a>
+                          <a href="#">
+                            <span>{money}</span> Low Interest
+                          </a>
                         </li>
                       </ul>
                     </div>
@@ -209,16 +274,24 @@ export default class App extends React.Component {
                       {" "}
                       <ul className="subList">
                         <li className="subitem">
-                          <a href="#">{cards} Travel</a>
+                          <a href="#">
+                            <span>{cards}</span> Travel
+                          </a>
                         </li>
                         <li className="subitem">
-                          <a href="#">{bussines} Airline</a>
+                          <a href="#">
+                            <span>{bussines}</span> Airline
+                          </a>
                         </li>
                         <li className="subitem">
-                          <a href="#">{shoping} Hotel</a>
+                          <a href="#">
+                            <span>{shoping}</span> Hotel
+                          </a>
                         </li>
                         <li className="subitem">
-                          <a href="#">{money} No Foreign Transaction Fee</a>
+                          <a href="#">
+                            <span>{money}</span> No Foreign Transaction Fee
+                          </a>
                         </li>
                       </ul>
                     </div>
@@ -232,33 +305,50 @@ export default class App extends React.Component {
                     <div class="subListContainer">
                       <ul className="subList">
                         <li className="subitem">
-                          <a href="#"> {cards} Best Credit Cards</a>
+                          <a href="#">
+                            {" "}
+                            <span>{cards}</span> Best Credit Cards
+                          </a>
                           <i class="fab fa-cc-stripe"></i>
                         </li>
                         <li className="subitem">
-                          <a href="#">{bussines} Rewards</a>
+                          <a href="#">
+                            <span>{bussines}</span> Rewards
+                          </a>
                         </li>
                         <li className="subitem">
-                          <a href="#">{shoping} Sign-up Bonuses</a>
+                          <a href="#">
+                            <span>{shoping}</span> Sign-up Bonuses
+                          </a>
                         </li>
                         <li className="subitem">
-                          <a href="#">{money} Cash Back</a>
+                          <a href="#">
+                            <span>{money}</span> Cash Back
+                          </a>
                         </li>
                       </ul>
                     </div>
                     <div class="subListContainer">
                       <ul className="subList">
                         <li className="subitem">
-                          <a href="#">{cards} Balance Transfer</a>
+                          <a href="#">
+                            <span>{cards}</span> Balance Transfer
+                          </a>
                         </li>
                         <li className="subitem">
-                          <a href="#">{bussines} 0% APR</a>
+                          <a href="#">
+                            <span>{bussines}</span> 0% APR
+                          </a>
                         </li>
                         <li className="subitem">
-                          <a href="#">{shoping} No Annual Fee</a>
+                          <a href="#">
+                            <span>{shoping}</span> No Annual Fee
+                          </a>
                         </li>
                         <li className="subitem">
-                          <a href="#">{money} Low Interest</a>
+                          <a href="#">
+                            <span>{money}</span> Low Interest
+                          </a>
                         </li>
                       </ul>
                     </div>

@@ -1,4 +1,6 @@
 import React from "react";
+import StarsBar from "./components/stars";
+import Stars from "./components/stars";
 
 import Card1 from "./Data/cardsImg/card1.jfif";
 import Card2 from "./Data/cardsImg/card2.jfif";
@@ -17,7 +19,7 @@ export default class ThirdBlock extends React.Component {
               <h2>American Express Gold Card</h2>
               <div class="evaluationContainer">
                 <p>iExcelente!</p>
-                <p>STARS</p>
+                <StarsBar />
                 <p> 19 oponioniones</p>
               </div>
 
@@ -45,7 +47,7 @@ export default class ThirdBlock extends React.Component {
               <h2>American Express Gold Card</h2>
               <div class="evaluationContainer">
                 <p>iExcelente!</p>
-                <p>STARS</p>
+                <StarsBar />
                 <p> 19 oponioniones</p>
               </div>
 
@@ -73,7 +75,7 @@ export default class ThirdBlock extends React.Component {
               <h2>American Express Gold Card</h2>
               <div class="evaluationContainer">
                 <p>iExcelente!</p>
-                <p>STARS</p>
+                <StarsBar />
                 <p> 19 oponioniones</p>
               </div>
 

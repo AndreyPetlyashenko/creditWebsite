@@ -21,6 +21,17 @@ header {
   box-shadow: 0 0.15rem 0.75rem 0 rgba(0, 0, 0, 0.15);
   background-color: white;
   height: 50px;
+  a:active {
+    color: black;
+  }
+  a:visited {
+    color: black;
+  }
+  .subContainer {
+    span {
+      color: rgb(53, 191, 196);
+    }
+  }
 }
 .headerMenu {
   display: flex;
